@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: #FFF url(../img/bg.png);
+	margin: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+#container {
+	background: #EDE9CC url(../img/bg-container.png) top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1200px;
+}
+
+#topo {
+	position: relative;
+	background: #DBCD87;
+	height: 15.4em;
+	min-height: 250px;
+}
+
+#area-logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/topo-imagem-principal2.png) no-repeat;
+	width: 100%;
+	height: 250px;
+	z-index: 1;
+}
+
+.logo a {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	background: url(../img/logo.png) no-repeat;
+	width: 151px;
+	height: 66px;
+	text-indent: -9000px;
+}
+
+#area-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../img/topo-imagem-lateral.png) no-repeat;
+	width: 450px;
+	height: 250px;
+	z-index: 2;
+}
+
+#conteudo-menu {
+	margin-left: 90px ;
+	margin-right: 15px;
+	padding-top: 15px;
+}
+
+#menu-locais {
+	border-top: 1px solid #B5AB56;
+	border-bottom: 1px solid #B5AB56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.7em;
+	color: #8B8448;
+}
+
+#menu-locais span.locais {
+	float: left;
+	line-height: 2.1em;
+}
+
+#menu-locais a.reserva {
+	text-transform: uppercase;
+	background: #A29750;
+	color: #FFF5B0;
+	padding: 5px 10px ;
+	float: right;
+}
+
+#menu {
+	margin-top: 15px;
+}
+
+ul#navegacao {
+	line-height: 30px;
+	float: left;
+}
+
+#navegacao a{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: #6E672C;
+	padding: 5px;
+}
+
+#navegacao a:hover {
+	background: #FDF6BE;
+	text-decoration: underline;
+}
+
+.depoimento {
+	float: right;
+	width: 226px;
+	height: 164px;
+}
+
+/* Área de conteúdo */
+
+#area-principal {
+	float: left;
+	width: 50%;
+	background: url(../img/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+#area-lateral {
+	float: right;
+	width: 50%;
+	background: url(../img/bg-area-principal.png) top left repeat-x;
+	padding: 20px 0px;
+}
+.conteudo {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#rodape {
+	clear: both;
+	padding: 16px;
+	color: #7D7640;
+	background: #FFF url(../img/bg-rodape.png) repeat-x top;
+}
+
+/* Formatação de textos */
+
+h2, h3{
+	color: #7D7640;
+	font-size: 1.1em;
+	padding: 5px 0;
+}
+
+p {
+	color: black;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+/* Formatação area lateral */
+
+#lista-beneficios li {
+	padding: 8px;
+	border-bottom: 1px solid #F3EFCB;
+	height: 6em;
+}
+
+#lista-beneficios li:hover {
+	background: #F6F3D6;
+}
+
+#lista-beneficios li a img {
+	float: left;
+	margin-right: 8px;
+}
+
+#lista-beneficios li a {
+	font-size: 0.8em;
+}
+
+#lista-beneficios li a h3 {
+	padding: 5px 0;
+	background: url(../img/ornamento.png) no-repeat center right;
+}

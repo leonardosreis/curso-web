@@ -1,0 +1,18 @@
+body {
+	background: url(../imagens/fundo.png);
+}
+
+table {
+	border: 0px;
+	width: 900px;
+	align-content: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
