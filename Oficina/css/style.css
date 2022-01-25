@@ -1,0 +1,14 @@
+#logo a {
+	background: url(../img/logo.png) no-repeat;
+	height: 230px;
+	float: left;
+}
+
+#logo {
+	text-indent: -9999px;
+}
+
+
+#nav-superior {
+	clear: left;
+}
