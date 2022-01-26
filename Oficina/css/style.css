@@ -1,14 +1,42 @@
-#logo a {
-	background: url(../img/logo.png) no-repeat;
-	height: 230px;
-	float: left;
+/* Geral */
+
+a {
+	text-decoration: none;
+	color: #000;
 }
+
+ul {
+	list-style-type: none;
+}
+
+/* Logo */
 
 #logo {
-	text-indent: -9999px;
+	background-color: #000;
+	height: 265px;
 }
 
+#logo img{
+	display: inline-block;
+}
+/* Barra Navegação Superior */
+
+header {
+	text-align: center;
+}
 
 #nav-superior {
-	clear: left;
+	height: 50px;
+	background-color: #A9A9A9;
+}
+
+#nav-superior li {
+	margin-right: 50px;
+	line-height: 10px;
+	display: inline-block;
+}
+
+#nav-superior li a:hover {
+	text-decoration: underline;
+	color: #F5FFFA;
 }
