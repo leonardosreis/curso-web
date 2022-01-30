@@ -1,1 +1,1 @@
-Esse repositório é destinado ao curso de front- end que faço.
+This Repository is destinated to my front-end studies.
