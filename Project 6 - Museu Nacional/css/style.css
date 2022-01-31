@@ -80,6 +80,7 @@ aside {
 	float: right;
 	padding-bottom: 30px;
 	background: #EBE7DD;
+	margin-bottom: 20px;
 }
 
 section#visita {
@@ -177,4 +178,23 @@ fieldset {
 
 legend {
 	display: none;
+}
+
+/* Rodapé */
+
+footer {
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+	clear: both;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer ul li {
+	margin-left: 25px;
+	display: inline-block;
+	list-style: none;
 }
