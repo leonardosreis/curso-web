@@ -1,0 +1,54 @@
+/* General */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url(../img/fundo.png);
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	max-width: 900px;
+}
+
+/* Header */
+
+header.logo {
+	float: left;
+	margin: 25px 0px 10px 15px;
+}
+
+nav.nav {
+	float: right;
+	margin-top: 45px;
+}
+
+nav a {
+	color: blue;
+}
+
+nav a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 25px;
+}
+
+/* Content */
+
+content img, h1, p{
+	margin: 8px 0px 5px 10px;
+}
