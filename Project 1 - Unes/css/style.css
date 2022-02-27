@@ -1,23 +1,25 @@
 /* General */
 
-* {
-	margin: 0px;
-	padding: 0px;
+body.index {
+	background: url(../img/fundo.png);
+	max-width: 900px;
 }
 
-body {
-	background: url(../img/fundo.png);
+body.quem-somos,
+body.contatos {
+	background: url(../img/fundo2.png);
+	max-width: 900px;
 }
 
 a {
 	text-decoration: none;
 }
 
-ul {
+ul.nav {
 	list-style: none;
 }
 
-.container {
+.cabecalho {
 	max-width: 900px;
 }
 
@@ -47,8 +49,31 @@ nav li {
 	padding-right: 25px;
 }
 
-/* Content */
+/* Conteúdo */
 
-content img, h1, p{
-	margin: 8px 0px 5px 10px;
+h2 {
+	padding: 20px 0px 10px 0px;
+	clear: both;
+}
+
+img.cover {
+	margin: 0px 0px 5px 10px;
+}
+
+h2, p, ol{
+	margin: 8px 0px 5px 20px;
+}
+
+/* Quem Somos */
+
+h2 {
+	clear: both;
+}
+
+/* Footer */
+
+footer {
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bold;
 }
