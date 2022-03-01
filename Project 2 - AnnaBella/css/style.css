@@ -2,6 +2,11 @@ body {
 	background: #d2d2c1 url('img/fundo.png');
 }
 
+nav {
+	background: #c5c5b2;
+	padding: 18px;
+}
+
 h1 {
 	color: #828271;
 	font-size: 1.2em;
@@ -10,17 +15,17 @@ h1 {
 a {
 	color: #4b566a;
 	text-decoration: none;
+	text-transform: uppercase;
 	font-weight: bold;
 	padding: 5px;
-} 
+}
+
+footer {
+	text-align: center;
+}
 
 #principal {
 	width: 900px;
-}
-
-#menu {
-	background: #c5c5b2;
-	padding: 18px;
 }
 
 #conteudo {
@@ -28,10 +33,10 @@ a {
 	padding: 10px;
 }
 
-#rodape {
-	text-align: center;
-}
-
 .img-campanha {
 	border: 10px solid #c3c3ae;
+}
+
+.bold {
+	font-weight: bold;
 }
